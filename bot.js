@@ -36,7 +36,7 @@ if (message.content.startsWith(prefix + 'setname')) {
 
 if (message.content.startsWith(prefix + 'setavatar')) {
   client.user.setAvatar(argresult);
-   message.channel.sendMessage(`Avatar Changed Successfully To **${argresult}**`);
+   message.channel.sendMessage(`:white_check_mark:`);
 }
 
 if (message.content.startsWith(prefix + 'sets')) {
